@@ -17,10 +17,30 @@ footer {
   background-color: #1e2d3c;
 }
 
+header .container {
+  width: 70%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+header .container .logo {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .container .logo img {
+  height: 50px;
+}
+
 main {
   width: 100%;
   height: calc(100vh - 140px);
-  background-color: darkblue;
+  background: black;
+  background: linear-gradient(0deg, black 28%, blue 85%);
   padding-top: 60px;
   overflow-y: scroll;
 }
@@ -42,7 +62,7 @@ main .container .box .disc-box {
   width: 250px;
   height: 500px;
   margin: 30px 15px 0 15px;
-  background-color: black;
+  background-color: #2e2d2d;
   color: white;
   float: left;
   text-align: center;
