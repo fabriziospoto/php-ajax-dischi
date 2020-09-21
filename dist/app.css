@@ -67,6 +67,13 @@ main .container .box .disc-box {
   float: left;
   text-align: center;
   border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+main .container .box .disc-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #000;
+  cursor: pointer;
 }
 
 main .container .box .disc-box h5 {

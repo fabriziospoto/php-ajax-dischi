@@ -11,6 +11,7 @@ include 'db.php';
         <title>php-ajax-dischi</title>
     </head>
     <body>
+        <!-- HEADER -->
         <header>
             <div class="container">
                 <div class="logo">
@@ -18,6 +19,7 @@ include 'db.php';
                 </div>
             </div>
         </header>
+        <!-- MAIN -->
         <main>
             <div class="container">
                 <div class="box clearfix">
@@ -32,6 +34,7 @@ include 'db.php';
                 </div>
             </div>
         </main>
+        <!-- FOOTER -->
         <footer>
         </footer>
     </body>

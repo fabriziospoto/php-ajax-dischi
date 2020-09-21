@@ -1,0 +1,15 @@
+@mixin font-1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+@mixin credits {
+    font-weight: 400;
+    color: $darkGrey;
+    text-transform: uppercase;
+}
+
+@mixin container {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+}

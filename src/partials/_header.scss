@@ -1,0 +1,16 @@
+header {
+    .container {
+        @include container;
+        height: 100%;
+        .logo {
+            width: 200px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                height: 50px;
+            }
+        }
+    }
+}
