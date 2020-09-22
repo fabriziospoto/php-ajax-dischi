@@ -1,7 +1,19 @@
 <?php
 include 'db.php';
 
-header('Content-Type:application/json');
+if (!empty($_GET['author'])) {
+    $searchAuthor = $_GET['author'];
+    $dbFilter = [];
 
-echo json_encode($database);
+    foreach ($database as $cd) {
+        if ($searchAuthor == $cd['author']) {
+            $dbFilter[] = $cd;
+        }
+    }
+    header('Content-Type:application/json');
+    echo json_encode($dbFilter);
+    } else {
+    header('Content-Type:application/json');
+    echo json_encode($database);
+}
  ?>

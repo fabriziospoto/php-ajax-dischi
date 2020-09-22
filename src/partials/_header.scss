@@ -5,12 +5,28 @@ header {
         .logo {
             width: 200px;
             height: 100%;
+            float: left;
             display: flex;
             justify-content: center;
             align-items: center;
             img {
                 height: 50px;
             }
+        }
+    }
+    .select-box {
+        width: 170px;
+        height: 100%;
+        float: right;
+        line-height: 70px;
+        select {
+            width: 170px;
+            height: 30px;
+            background-color: #294c95;
+            border: 2px solid #18d860;
+            border-radius: 20px;
+            color: #18d860;
+            font-weight: 700;
         }
     }
 }
